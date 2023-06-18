@@ -1,13 +1,60 @@
-import { Section } from "./main.css";
+import { Gutter } from "./main.css";
 
 function Container() {
    return (
-      <Section className="container">
-         <div>1</div>
-         <div>2</div>
-         <div>3</div>
-         <div>4</div>
-      </Section>
+      <>
+         <Gutter className="grid gutters">
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit esse consequat magna ut cupidatat mollit.
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit esse consequat magna ut cupidatat mollit.
+               </div>
+            </div>
+         </Gutter>
+         <Gutter className="grid gutters">
+            <div className="cell large">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit esse consequat magna ut cupidatat mollit.
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit
+               </div>
+            </div>
+         </Gutter>
+         <Gutter className="grid gutters">
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit esse consequat magna ut cupidatat mollit.
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit esse consequat magna ut cupidatat mollit.
+               </div>
+            </div>
+            <div className="cell">
+               <div>
+                  Quis duis officia nostrud ullamco elit Lorem velit
+               </div>
+            </div>
+         </Gutter>
+      </>
    );
 }
 export default Container;
