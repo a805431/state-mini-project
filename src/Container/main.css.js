@@ -1,41 +1,20 @@
 import styled from "styled-components";
 
-export const Gutter = styled.div`
-   &.grid {
+export const Vcenter = styled.div`
+   &.vcenter {
       display: flex;
+      align-items: center;
+      // justify-content: center;
+      height: 150px;
+      border: 1px solid white;
    }
 
-   .gutters {
-      margin: -10px 0 10px -10px;
+   &.vcenter > * {
+      margin: auto;
    }
 
-   &.gutters > div {
-      padding: 10px 0 0 10px;
+   p {
+      margin: 0;
    }
 
-   &.grid div div {
-      background-color: rgba(255, 255, 255, 0.7);
-      padding: 10px;
-      height: 100%;
-   }
-
-   .half{
-      flex-basis: 50%;
-   }
-
-   .third {
-      flex-basis: 33.33333%;
-   }
-
-   .fourth {
-      flex-basis: 25%;
-   }
-
-   .fifth {
-      flex-basis: 20%;
-   }
-
-   .sixth{
-      flex-basis: 16.66666%;
-   }
 `;
