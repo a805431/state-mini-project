@@ -1,20 +1,25 @@
 import styled from "styled-components";
 
-export const Vcenter = styled.div`
-   &.vcenter {
+export const StyledUl = styled.ul`
+   &.vcenter{
       display: flex;
       align-items: center;
-      // justify-content: center;
+      justify-content: center;
       height: 150px;
       border: 1px solid white;
-   }
-
-   &.vcenter > * {
-      margin: auto;
    }
 
    p {
       margin: 0;
    }
 
+   li{
+      list-style-type: none;
+      flex-basis: 25%;
+   }
+
+`;
+
+export const StyledNav = styled.nav`
+   width: 400px;
 `;

@@ -1,12 +1,17 @@
-import { Vcenter } from "./main.css";
+import { StyledNav } from "./main.css";
+import { StyledUl } from "./main.css";
 
 function Container() {
    return (
       <>
-         <Vcenter className="vcenter">
-            <p>I'm in the center.</p>
-            {/* <p>I'm in the center.</p> */}
-         </Vcenter>
+         <StyledNav>
+            <StyledUl className="vcenter">
+               <li>Home</li>
+               <li>Portfolio</li>
+               <li>Reviews</li>
+               <li>Get in touch</li>
+            </StyledUl>
+         </StyledNav>
       </>
    );
 }
