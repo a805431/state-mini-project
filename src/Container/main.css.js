@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const StyledContainer = styled.div`
   .media {
    display: flex;
-   flex-flow: row wrap;
+   flex-flow: row nowrap;
   }   
 
   .figure {
    flex: 1 1 40%;
-   align-self: center;
-   order: 1;
+   align-self: flex-start;
+   order: 0;
   }
 
   .media-body {
