@@ -1,25 +1,22 @@
 import styled from "styled-components";
 
-export const StyledUl = styled.ul`
-   &.vcenter{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 150px;
-      border: 1px solid white;
-   }
+export const StyledContainer = styled.div`
+  .media {
+   display: flex;
+   flex-flow: row wrap;
+  }   
 
-   p {
-      margin: 0;
-   }
+  .figure {
+   flex: 1 1 40%;
+   align-self: center;
+   order: 1;
+  }
 
-   li{
-      list-style-type: none;
-      flex-basis: 25%;
-   }
+  .media-body {
+   flex: 1 1 60%;
+  }
 
-`;
-
-export const StyledNav = styled.nav`
-   width: 400px;
+  p {
+   margin: 0 10px 20px 10px;
+  }
 `;
