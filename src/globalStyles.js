@@ -15,6 +15,14 @@ const GlobalStyle = createGlobalStyle`
    font-size: 18px;
  }
  
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+  margin: 0;
+ }
+
  code {
    margin: 1px 5px;
    padding: 2px 5px 1px 5px;

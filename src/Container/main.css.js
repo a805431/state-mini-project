@@ -1,22 +1,36 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  .media {
-   display: flex;
-   flex-flow: row nowrap;
-  }   
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
-  .figure {
-   flex: 1 1 40%;
-   align-self: flex-start;
-   order: 0;
+  #main {
+    display: flex;
+    flex-grow: 1;
   }
 
-  .media-body {
-   flex: 1 1 60%;
+  #content {
+    flex: 4 1 0%;
   }
 
-  p {
-   margin: 0 10px 20px 10px;
+  #secondary {
+    // flex-basis: 200px;
+    flex: 1 1 0%;
+    order: -1;
+  }
+
+  #tertiary {
+    flex: 1 1 0%;
+    // flex-basis: 150px;
+  }
+
+  #header, #footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #main * {
+    padding: 20px;
   }
 `;

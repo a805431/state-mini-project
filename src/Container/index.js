@@ -1,105 +1,25 @@
-import squirrel from "../img/squirrel.jpg";
 import { StyledContainer } from "./main.css";
 
 function Container() {
    return (
-      <>
-         <StyledContainer>
-            <div className="media">
-               <img src={squirrel} alt="" className="figure" />
-               <div className="media-body">
-                  <p>Ad sit irure in eiusmod. Culpa proident cillum
-                     velit reprehenderit fugiat fugiat fugiat ut
-                     aliquip cillum labore. Do nostrud aliquip
-                     officia sint ullamco culpa nulla culpa nisi
-                     officia. Aute anim ut adipisicing non nisi.
-                     Consectetur laboris id elit tempor anim eu
-                     amet esse duis aute occaecat labore. Officia
-                     anim amet qui incididunt laborum qui laborum
-                     fugiat dolore irure id.
-                  </p>
-                  <p>Incididunt aliquip consectetur reprehenderit
-                     occaecat tempor anim occaecat officia aute laborum
-                     quis duis irure aliqua. Cupidatat reprehenderit
-                     ipsum amet incididunt cillum irure minim.
-                     Enim excepteur mollit nulla id adipisicing
-                     velit cupidatat nostrud commodo culpa.
-                  </p>
-                  <p>Incididunt aliquip consectetur reprehenderit
-                     occaecat tempor anim occaecat officia aute laborum
-                     quis duis irure aliqua. Cupidatat reprehenderit
-                     ipsum amet incididunt cillum irure minim.
-                     Enim excepteur mollit nulla id adipisicing
-                     velit cupidatat nostrud commodo culpa.
-                  </p>
-                  <div className="media">
-                     <img src={squirrel} alt="" className="figure" />
-                     <div className="media-body">
-                        <p>Ad sit irure in eiusmod. Culpa proident cillum
-                           velit reprehenderit fugiat fugiat fugiat ut
-                           aliquip cillum labore. Do nostrud aliquip
-                           officia sint ullamco culpa nulla culpa nisi
-                           officia. Aute anim ut adipisicing non nisi.
-                           Consectetur laboris id elit tempor anim eu
-                           amet esse duis aute occaecat labore. Officia
-                           anim amet qui incididunt laborum qui laborum
-                           fugiat dolore irure id.
-                        </p>
-                        <p>Incididunt aliquip consectetur reprehenderit
-                           occaecat tempor anim occaecat officia aute laborum
-                           quis duis irure aliqua. Cupidatat reprehenderit
-                           ipsum amet incididunt cillum irure minim.
-                           Enim excepteur mollit nulla id adipisicing
-                           velit cupidatat nostrud commodo culpa.
-                        </p>
-                        <p>Incididunt aliquip consectetur reprehenderit
-                           occaecat tempor anim occaecat officia aute laborum
-                           quis duis irure aliqua. Cupidatat reprehenderit
-                           ipsum amet incididunt cillum irure minim.
-                           Enim excepteur mollit nulla id adipisicing
-                           velit cupidatat nostrud commodo culpa.
-                        </p>
-                        <div className="media">
-                           <img src={squirrel} alt="" className="figure" />
-                           <div className="media-body">
-                              <p>Ad sit irure in eiusmod. Culpa proident cillum
-                                 velit reprehenderit fugiat fugiat fugiat ut
-                                 aliquip cillum labore. Do nostrud aliquip
-                                 officia sint ullamco culpa nulla culpa nisi
-                                 officia. Aute anim ut adipisicing non nisi.
-                                 Consectetur laboris id elit tempor anim eu
-                                 amet esse duis aute occaecat labore. Officia
-                                 anim amet qui incididunt laborum qui laborum
-                                 fugiat dolore irure id.
-                              </p>
-                              <p>Incididunt aliquip consectetur reprehenderit
-                                 occaecat tempor anim occaecat officia aute laborum
-                                 quis duis irure aliqua. Cupidatat reprehenderit
-                                 ipsum amet incididunt cillum irure minim.
-                                 Enim excepteur mollit nulla id adipisicing
-                                 velit cupidatat nostrud commodo culpa.
-                              </p>
-                              <p>Incididunt aliquip consectetur reprehenderit
-                                 occaecat tempor anim occaecat officia aute laborum
-                                 quis duis irure aliqua. Cupidatat reprehenderit
-                                 ipsum amet incididunt cillum irure minim.
-                                 Enim excepteur mollit nulla id adipisicing
-                                 velit cupidatat nostrud commodo culpa.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </StyledContainer>
-         Incididunt aliquip consectetur reprehenderit
-         occaecat tempor anim occaecat officia aute laborum
-         quis duis irure aliqua. Cupidatat reprehenderit
-         ipsum amet incididunt cillum irure minim.
-         Enim excepteur mollit nulla id adipisicing
-         velit cupidatat nostrud commodo culpa.
-      </>
+      <StyledContainer>
+         <header id="header">Header</header>
+         <main id="main">
+            <section id="content">ac ut consequat semper viverra nam libero justo laoreet sit amet cursus
+               sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id
+               diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum
+               nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque
+               viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu
+               mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis
+               viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu</section>
+            <aside id="secondary">gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing
+               at in tellus integer feugiat
+               scelerisque varius morbi enim nunc faucibus a pellentesque sit amet porttitor eget</aside>
+            <aside id="tertiary">nunc lobortis mattis aliquam faucibus purus in massa tempor nec
+               feugiat nisl pretium fusce id velit ut tortor pretium viverra</aside>
+         </main>
+         <footer id="footer">Footer</footer>
+      </StyledContainer>
    );
 }
 export default Container;
